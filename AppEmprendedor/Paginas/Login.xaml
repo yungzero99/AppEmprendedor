@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEmprendedor.Paginas.Login"
+             Title="">
+    <ContentPage.Content>
+        <ScrollView>
+            <AbsoluteLayout>
+                <BoxView x:Name="_bg__login_1"
+				Color="Transparent"
+				AbsoluteLayout.LayoutBounds="0,0,375,667" />
+                <Image x:Name="vector"
+				AbsoluteLayout.LayoutBounds="0,0,375,667" />
+
+                <AbsoluteLayout x:Name="group"
+				 AbsoluteLayout.LayoutBounds="24,333.5,49,19"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek1"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="-24,-334,49,19" />
+                    <Label x:Name="usuario"
+					FontFamily="Roboto"
+					FontSize="16"
+					TextColor="#030303"
+					AbsoluteLayout.LayoutBounds="0,0,63.6,23.6"
+					Text="Usuario"
+				 />
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek2"
+				 AbsoluteLayout.LayoutBounds="24,431.5,73,19"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek3"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="-24,-432,73,19" />
+                    <Label x:Name="contraseña"
+					FontFamily="Roboto"
+					FontSize="16"
+					TextColor="#030303"
+					AbsoluteLayout.LayoutBounds="0,0,87.6,23.6"
+					Text="Contraseña"
+				 />
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek4"
+				 AbsoluteLayout.LayoutBounds="0,0,351,619"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek5"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="0,0,351,619" />
+                    <Button
+                        x:Name="BtnLogear"
+                        Clicked="BtnLogear_Clicked"
+                        ImageSource="login5.png"
+                        AbsoluteLayout.LayoutBounds="24,570,327,49"
+                        />
+                    <Image x:Name="vector_ek1"
+					Source="login5.png"
+					AbsoluteLayout.LayoutBounds="24,570,327,49" />
+
+                    <AbsoluteLayout x:Name="group_ek6"
+					 AbsoluteLayout.LayoutBounds="0,0,100,100"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek7"
+						Color="Transparent"
+						AbsoluteLayout.LayoutBounds="0,0,100,100" />
+                    </AbsoluteLayout>
+
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek8"
+				 AbsoluteLayout.LayoutBounds="194,526,140,14"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek9"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="-194,-526,140,14" />
+                    <Label x:Name="__has_olvidado_tu_contrase_a_"
+					FontFamily="Roboto"
+					FontSize="12"
+
+					AbsoluteLayout.LayoutBounds="0,0,152.2,17.2"
+					Text="Has olvidado tu contraseña?"
+                        TextColor="Blue"
+                TextDecorations="Underline">
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
+
+                        </Label.GestureRecognizers>
+                    </Label>
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek10"
+				 AbsoluteLayout.LayoutBounds="0,0,350.5,413.5"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek11"
+					Color="Transparent"
+                    AbsoluteLayout.LayoutBounds="0,0,350.5,413.5" />
+                    <Entry
+                        x:Name="EntryUsuario"
+                        AbsoluteLayout.LayoutBounds="24,364,327,50"
+                        >
+                        
+                    </Entry>
+                    <Image x:Name="vector_ek2"
+					Source="login2.png"
+                           Opacity="0.3"
+					AbsoluteLayout.LayoutBounds="24,364,327,50" />
+
+                    <AbsoluteLayout x:Name="group_ek12"
+					 AbsoluteLayout.LayoutBounds="0,0,100,100"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek13"
+						Color="Transparent"
+						AbsoluteLayout.LayoutBounds="0,0,100,100" />
+                    </AbsoluteLayout>
+
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek14"
+				 AbsoluteLayout.LayoutBounds="0,0,350.5,511.5"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek15"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="0,0,350.5,511.5" />
+
+                    <Entry
+                        x:Name="EntryPasswd"
+                        AbsoluteLayout.LayoutBounds="24,462,327,50"
+                        >
+
+                    </Entry>
+
+                    <Image x:Name="vector_ek3"
+					Source="login2.png"
+					AbsoluteLayout.LayoutBounds="24,462,327,50"
+                           Opacity="0.3"/>
+
+                    <AbsoluteLayout x:Name="group_ek16"
+					 AbsoluteLayout.LayoutBounds="0,0,100,100"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek17"
+						Color="Transparent"
+						AbsoluteLayout.LayoutBounds="0,0,100,100" />
+                    </AbsoluteLayout>
+
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek18"
+				 AbsoluteLayout.LayoutBounds="75,62,225,225"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek19"
+					Color=" Transparent"
+					AbsoluteLayout.LayoutBounds="-75,-62,225,225" >
+                    </BoxView>
+                    <Image x:Name="vector_ek4wm"
+					Source="grp.png"
+					AbsoluteLayout.LayoutBounds="0,0,225,225" />
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek20"
+				 AbsoluteLayout.LayoutBounds="145,585,85,19"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek21"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="-145,-585,85,19" />
+
+                    <Label x:Name="iniciar_sesi_n"
+					FontFamily="Roboto"
+					FontSize="16"
+					TextColor="White"
+					AbsoluteLayout.LayoutBounds="0,0,99.6,23.6"
+					Text="Iniciar sesión"
+				 />
+                </AbsoluteLayout>
+
+            </AbsoluteLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

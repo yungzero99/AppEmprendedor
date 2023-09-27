@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEmprendedor.Paginas.SignUp"
+             Title="">
+    <ContentPage.Content>
+        <ScrollView>
+            <AbsoluteLayout>
+                <BoxView x:Name="_bg__login_1"
+				Color="Transparent"
+				AbsoluteLayout.LayoutBounds="0,0,375,667" />
+                <Image x:Name="vector"
+				Source="vector.png"
+				AbsoluteLayout.LayoutBounds="0,0,375,667" />
+
+                <AbsoluteLayout x:Name="group"
+				 AbsoluteLayout.LayoutBounds="24,334,114,16"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek1"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="-24,-334,114,16" />
+                    <Label x:Name="contrase_a"
+					FontFamily="Roboto"
+					FontSize="14"
+					TextColor="#030303"
+					AbsoluteLayout.LayoutBounds="0,0,127.4,20.4"
+					Text="Contraseña"
+				 />
+
+                    
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek2"
+				 AbsoluteLayout.LayoutBounds="24,432,170,16"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek3"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="-24,-432,170,16" />
+                    <Label x:Name="confirmar_contrase_a"
+					FontFamily="Roboto"
+					FontSize="14"
+					TextColor="#030303"
+					AbsoluteLayout.LayoutBounds="0,0,183.4,20.4"
+					Text="Confirmar Contrasea"
+				 />
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek4"
+				 AbsoluteLayout.LayoutBounds="24,570,327,49"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek5"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="-24,-570,327,49" />
+
+
+                    <Button
+                            x:Name="BtnCrearCuenta"
+                            AbsoluteLayout.LayoutBounds="86,0,159,49"
+                        ImageSource="vector_ek4wm.png"
+                            Clicked="BtnCrearCuenta_Clicked">
+
+                    </Button>
+                    
+                    <Image x:Name="vector_ek1"
+
+					AbsoluteLayout.LayoutBounds="0,0,327,49" />
+
+
+
+
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek6"
+				 AbsoluteLayout.LayoutBounds="194,526,140,14"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek7"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="-194,-526,140,14" />
+                    <Label x:Name="__has_olvidado_tu_contrase_a_"
+					FontFamily="Roboto"
+					FontSize="12"
+					TextColor="#030303"
+					AbsoluteLayout.LayoutBounds="0,0,152.2,17.2"
+					Text=""
+				 />
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek8"
+				 AbsoluteLayout.LayoutBounds="24.5,364.5,326,49"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek9"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="-25,-365,326,49" />
+
+                    <Entry
+                        x:Name="EntryPasswd"
+                        AbsoluteLayout.LayoutBounds="-1,-1,327,50"
+                        >
+                        
+                        </Entry>
+
+                        <Image x:Name="vector_ek2"
+					Source="login2.png"
+					AbsoluteLayout.LayoutBounds="-1,-1,327,50"
+                        Opacity=".3"/>
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek10"
+				 AbsoluteLayout.LayoutBounds="24,55,136,16"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek11"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="-24,-55,136,16" />
+                    <Label x:Name="nombre_completo"
+					FontFamily="Roboto"
+					FontSize="14"
+					TextColor="#030303"
+					AbsoluteLayout.LayoutBounds="0,0,149.4,20.4"
+					Text="Nombre Completo"
+				 />
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek12"
+				 AbsoluteLayout.LayoutBounds="24.5,86,326,49"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek13"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="-25,-86,326,49" />
+
+                    <Entry
+                        x:Name="EntryNombreCompleto"
+                        AbsoluteLayout.LayoutBounds="-1,-1,327,50"
+                        >
+
+                    </Entry>
+
+                    <Image x:Name="vector_ek3"
+					Source="login2.png"
+					AbsoluteLayout.LayoutBounds="-1,-1,327,50"
+                           Opacity=".3"/>
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek14"
+				 AbsoluteLayout.LayoutBounds="24,147,136,16"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek15"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="-24,-147,136,16" />
+                    <Label x:Name="usuario"
+					FontFamily="Roboto"
+					FontSize="16"
+					TextColor="#000000"
+					AbsoluteLayout.LayoutBounds="0,0,150.6,20.6"
+					Text="Usuario"
+				 />
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek16"
+				 AbsoluteLayout.LayoutBounds="24.5,178,326,49"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek17"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="-25,-178,326,49" />
+
+                    <Entry
+                        x:Name="EntryUsuario"
+                        AbsoluteLayout.LayoutBounds="-1,-1,327,50"
+                        >
+
+                    </Entry>
+                    <Image x:Name="vector_ek4"
+					Source="login2.png"
+					AbsoluteLayout.LayoutBounds="-1,-1,327,50"
+                           Opacity=".3"/>
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek18"
+				 AbsoluteLayout.LayoutBounds="24,239,136,16"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek19"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="-24,-239,136,16" />
+                    <Label x:Name="correo_electronico"
+					FontFamily="Roboto"
+					FontSize="14"
+					TextColor="#030303"
+					AbsoluteLayout.LayoutBounds="0,0,149.4,20.4"
+					Text="Correo Electronico"
+				 />
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek20"
+				 AbsoluteLayout.LayoutBounds="24.5,270,326,49"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek21"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="-25,-270,326,49" />
+
+                    <Entry
+                        x:Name="EntryEmail"
+                        AbsoluteLayout.LayoutBounds="-1,-1,327,50"
+                        >
+
+                    </Entry>
+                    <Image x:Name="vector_ek5"
+					Source="login2.png"
+					AbsoluteLayout.LayoutBounds="-1,-1,327,50"
+                           Opacity=".3"/>
+                </AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="group_ek22"
+				 AbsoluteLayout.LayoutBounds="24.5,462.5,326,49"
+				 >
+
+                    <BoxView x:Name="_bg__group_ek23"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="-25,-463,326,49" />
+                    <Entry
+                        x:Name="EntryConfirmPasswd"
+                        AbsoluteLayout.LayoutBounds="-1,-1,327,50">
+                    </Entry>
+                    
+                    <Image x:Name="vector_ek6"
+					Source="login2.png"
+					AbsoluteLayout.LayoutBounds="-1,-1,327,50"
+                           Opacity=".3"/>
+                </AbsoluteLayout>
+
+                <Label x:Name="crear_cuenta"
+				FontFamily="Roboto"
+				FontSize="16"
+				TextColor="#000000"
+				AbsoluteLayout.LayoutBounds="146,585,96.6,23.6"
+				Text="Crear Cuenta"
+			 />
+            </AbsoluteLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+</ContentPage>

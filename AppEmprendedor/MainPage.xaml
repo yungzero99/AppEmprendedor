@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEmprendedor.MainPage"
+             Title="">
+
+    <ContentPage.Content>
+        <ScrollView>
+            <AbsoluteLayout>
+
+
+                <AbsoluteLayout x:Name="page_welcome_2_ek1"
+				 AbsoluteLayout.LayoutBounds="0,0,375,667"
+				 >
+
+                    <BoxView x:Name="_bg__welcome_2_ek2"
+                             Color="Transparent"
+					AbsoluteLayout.LayoutBounds="0,0,375,667" />
+                    <Image x:Name="vector"
+					Source="vectorwm.png"
+					AbsoluteLayout.LayoutBounds="0,0,375,667" />
+
+                    <AbsoluteLayout x:Name="group"
+					 AbsoluteLayout.LayoutBounds="40,335,296,78"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek1"
+                                 Color="Transparent"
+						AbsoluteLayout.LayoutBounds="-40,-335,296,78" />
+                        <Label x:Name="gestion_de_tareas_de"
+						FontFamily="Roboto"
+						FontAttributes="Bold"
+						FontSize="32"
+						TextColor="#080A0B"
+						AbsoluteLayout.LayoutBounds="0,0,320.2,47.2"
+						Text="Gestion de tareas de"
+					 />
+                        <Label x:Name="emprendedores"
+						FontFamily="Roboto"
+						FontAttributes="Bold"
+						FontSize="32"
+						TextColor="#080A0B"
+						AbsoluteLayout.LayoutBounds="30,40,251.2,47.2"
+						Text="emprendedores"
+					 />
+                    </AbsoluteLayout>
+
+
+                    <AbsoluteLayout x:Name="group_ek2"
+					 AbsoluteLayout.LayoutBounds="75,70,225,225"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek3"
+                                 Color="Transparent"
+						AbsoluteLayout.LayoutBounds="-75,-70,225,225" >
+                            
+                        </BoxView>
+                        <Image x:Name="vector_ek1"
+						Source="vector_ek1wm.png"
+						AbsoluteLayout.LayoutBounds="0,0,225,225" />
+                    </AbsoluteLayout>
+
+
+                    <AbsoluteLayout x:Name="group_ek4"
+					 AbsoluteLayout.LayoutBounds="0,0,355,601"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek5"
+                                 Color="Transparent"
+						AbsoluteLayout.LayoutBounds="0,0,355,601" />
+                        <Image x:Name="vector_ek2"
+						Source="vector_ek2wm.png"
+						AbsoluteLayout.LayoutBounds="192,553,163,48" />
+
+                        <AbsoluteLayout x:Name="group_ek6"
+						 AbsoluteLayout.LayoutBounds="0,0,100,100"
+						 >
+
+                            <BoxView x:Name="_bg__group_ek7"
+                                     Color="Transparent"
+							AbsoluteLayout.LayoutBounds="0,0,100,100" />
+                        </AbsoluteLayout>
+
+                    </AbsoluteLayout>
+
+
+                    <AbsoluteLayout x:Name="group_ek8"
+					 AbsoluteLayout.LayoutBounds="20.5,552,334.5,48.5"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek9"
+                                 Color="Transparent"
+						AbsoluteLayout.LayoutBounds="-21,-552,334.5,48.5" />
+
+                        <Button
+                            x:Name="BtnLogear"
+                            Clicked="BtnLogear_Clicked"
+                            AbsoluteLayout.LayoutBounds="-1,1,164,48"
+                             
+                            >
+                            
+
+                        </Button>
+                        
+                        <Image x:Name="vector_ek3"
+						Source="vector_ek3wm.png"
+						AbsoluteLayout.LayoutBounds="-1,1,164,48" />
+                        <Image x:Name="vector_ek4"
+						Source="vector_ek4wm.png"
+						AbsoluteLayout.LayoutBounds="171,-1,164,49" />
+                        <Label x:Name="iniciar_sesion"
+						FontFamily="Roboto"
+						FontAttributes="Bold"
+						FontSize="14"
+						TextColor="#2C2B2A"
+						AbsoluteLayout.LayoutBounds="40,16,99.4,20.4"
+						Text="Iniciar Sesión"
+					 />
+                        <Button
+                            x:Name="BtnCrearCuenta"
+                            ImageSource="vector_ek4wm.png"
+                            AbsoluteLayout.LayoutBounds="171,-1,164,49"
+                            Clicked="BtnCrearCuenta_Clicked">
+
+                        </Button>
+                        <Label x:Name="crear_cuenta"
+						FontFamily="Roboto"
+						FontAttributes="Bold"
+						FontSize="14"
+						TextColor="#2C2B2A"
+                               VerticalTextAlignment="Center"
+						AbsoluteLayout.LayoutBounds="217,16,99.4,20.4"
+						Text="Crear Cuenta"
+					 />
+                    </AbsoluteLayout>
+
+                </AbsoluteLayout>
+            </AbsoluteLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+
+</ContentPage>

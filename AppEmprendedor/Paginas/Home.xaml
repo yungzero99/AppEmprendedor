@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEmprendedor.Paginas.Home"
+             Title="">
+
+
+    <ContentPage.Content>
+        <ScrollView>
+            <AbsoluteLayout>
+
+
+                    <AbsoluteLayout x:Name="page_new_screen_1_ek1"
+				 AbsoluteLayout.LayoutBounds="0,0,375,738"
+				 >
+
+                    <BoxView x:Name="_bg__new_screen_1_ek2"
+					Color="Transparent"
+					AbsoluteLayout.LayoutBounds="0,0,375,738" />
+
+
+                    <Image x:Name="vector"
+					Source="vectorhome.png"
+					AbsoluteLayout.LayoutBounds="0,0,375,738" />
+
+                    <Image x:Name="iconmenu"
+                           Source="iconmenu.png"
+						   AbsoluteLayout.LayoutBounds="320,10,48,48">
+                        <Image.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="iconmenu_Tapped" />
+                        </Image.GestureRecognizers>
+                        </Image>
+
+                    <AbsoluteLayout x:Name="group"
+					 AbsoluteLayout.LayoutBounds="156,205,189,137"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek1"
+						Color="Transparent"
+						AbsoluteLayout.LayoutBounds="-156,-205,189,137" />
+                        <Image x:Name="vector_ek1"
+						Source="homeek1.png"
+						AbsoluteLayout.LayoutBounds="0,0,189,137" />
+                    </AbsoluteLayout>
+
+
+                    <BoxView x:Name="_bg__new_screen_1_ek"
+                             Color="Black"
+                             AbsoluteLayout.LayoutBounds="17,549,328,132">
+                    </BoxView>
+                    <Image x:Name="vector_ek"
+                           Source="homeek7.png"
+						AbsoluteLayout.LayoutBounds="17,549,328,132" />
+
+
+                    <BoxView x:Name="_bg__group_ek3"
+						Color="Transparent"
+						AbsoluteLayout.LayoutBounds="-39,-569,62,24" />
+                    <Image x:Name="vector_ek2"
+						Source="homeek2.png"
+						AbsoluteLayout.LayoutBounds="17,347,188,128" />
+
+                    <BoxView x:Name="grpk3"
+						Color="Black"
+						AbsoluteLayout.LayoutBounds="-17,-347,188,128" />
+                    <Image x:Name="grpek3"
+						Source="homeek8.png"
+						AbsoluteLayout.LayoutBounds="17,648,188,128" />
+
+                    <AbsoluteLayout x:Name="group_ek2"
+					 AbsoluteLayout.LayoutBounds="17,347,188,128"
+					 >
+
+
+                    </AbsoluteLayout>
+
+
+                    <AbsoluteLayout x:Name="group_ek4"
+					 AbsoluteLayout.LayoutBounds="18,210,132,130"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek5"
+						Color="Transparent"
+						AbsoluteLayout.LayoutBounds="-18,-210,132,130" />
+                        <Image x:Name="vector_ek3"
+						Source="homeek3.png"
+						AbsoluteLayout.LayoutBounds="0,-2.5,132,130" />
+                    </AbsoluteLayout>
+
+
+                    <AbsoluteLayout x:Name="group_ek6"
+					 AbsoluteLayout.LayoutBounds="211,346,133,128"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek7"
+						Color="Transparent"
+						AbsoluteLayout.LayoutBounds="-211,-346,133,128" />
+                        <Image x:Name="vector_ek4"
+						Source="homeek4.png"
+						AbsoluteLayout.LayoutBounds="0,0,133,128" />
+                    </AbsoluteLayout>
+
+
+                    <AbsoluteLayout x:Name="group_ek8"
+					 AbsoluteLayout.LayoutBounds="35,382,24,32"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek9"
+						Color="Transparent"
+						AbsoluteLayout.LayoutBounds="-35,-382,24,32" />
+                        <Image x:Name="vector_ek5"
+						Source="homeek5.png"
+						AbsoluteLayout.LayoutBounds="0,0,24,32" />
+                    </AbsoluteLayout>
+
+
+                    <AbsoluteLayout x:Name="group_ek10"
+					 AbsoluteLayout.LayoutBounds="35,247,24,30"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek11"
+						Color="Transparent"
+						AbsoluteLayout.LayoutBounds="-35,-247,24,30" />
+                        <Image x:Name="vector_ek6"
+						Source="homeek6.png"
+						AbsoluteLayout.LayoutBounds="0,0,24,30" />
+                    </AbsoluteLayout>
+
+
+                    <AbsoluteLayout x:Name="group_ek12"
+					 AbsoluteLayout.LayoutBounds="172,238.5,39,46"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek13"
+						Color="Transparent"
+						AbsoluteLayout.LayoutBounds="-172,-239,39,46" />
+                        <Label x:Name="_16"
+						FontFamily="Roboto Condensed"
+						FontSize="39"
+						TextColor="#030303"
+						AbsoluteLayout.LayoutBounds="0,0,67.9,57.9"
+						Text="16"
+					 />
+                    </AbsoluteLayout>
+
+
+                    <AbsoluteLayout x:Name="group_ek14"
+					 AbsoluteLayout.LayoutBounds="172,287.5,94,15"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek15"
+						Color="Transparent"
+						AbsoluteLayout.LayoutBounds="-172,-288,94,15" />
+                        <Label x:Name="tareas_pendientes"
+						FontFamily="Roboto Condensed"
+						FontSize="13"
+						TextColor="#030303"
+						AbsoluteLayout.LayoutBounds="0,0,107.3,19.3"
+						Text="Tareas pendientes"
+					 />
+                    </AbsoluteLayout>
+
+
+                    <AbsoluteLayout x:Name="group_ek16"
+					 AbsoluteLayout.LayoutBounds="37,288,77,14"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek17"
+						Color="Transparent"
+						AbsoluteLayout.LayoutBounds="-37,-288,77,14" />
+                        <Label x:Name="pr_ximas_tareas"
+						FontFamily="Roboto Condensed"
+						FontSize="12"
+						TextColor="#030303"
+						AbsoluteLayout.LayoutBounds="0,0,89.2,17.2"
+						Text="Prximas tareas"
+					 />
+                    </AbsoluteLayout>
+
+
+                    <AbsoluteLayout x:Name="group_ek18"
+					 AbsoluteLayout.LayoutBounds="37,423.5,74,15"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek19"
+						Color="Transparent"
+						AbsoluteLayout.LayoutBounds="-37,-424,74,15" />
+                        <Label x:Name="nuevas_tareas"
+						FontFamily="Roboto Condensed"
+						FontSize="13"
+						TextColor="#030303"
+						AbsoluteLayout.LayoutBounds="0,0,87.3,19.3"
+						Text="Nuevas tareas"
+					 />
+                    </AbsoluteLayout>
+
+
+                    <AbsoluteLayout x:Name="group_ek20"
+					 AbsoluteLayout.LayoutBounds="230,375,20,47"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek21"
+						Color="Transparent"
+						AbsoluteLayout.LayoutBounds="-230,-375,20,47" />
+                        <Label x:Name="_1"
+						FontFamily="Roboto Condensed"
+						FontSize="40"
+						TextColor="#030303"
+						AbsoluteLayout.LayoutBounds="0,0,49,59"
+						Text="1"
+					 />
+                    </AbsoluteLayout>
+
+
+                    <AbsoluteLayout x:Name="group_ek22"
+					 AbsoluteLayout.LayoutBounds="231,423.5,44,15"
+					 >
+
+                        <BoxView x:Name="_bg__group_ek23"
+						Color="Transparent"
+						AbsoluteLayout.LayoutBounds="-231,-424,44,15" />
+                        <Label x:Name="mensaje"
+						FontFamily="Roboto Condensed"
+						FontSize="13"
+						TextColor="#030303"
+						AbsoluteLayout.LayoutBounds="0,0,57.3,19.3"
+						Text="Mensaje"
+					 />
+                    </AbsoluteLayout>
+
+                </AbsoluteLayout>
+            </AbsoluteLayout>
+
+        </ScrollView>
+
+    </ContentPage.Content>
+
+</ContentPage>
