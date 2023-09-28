@@ -10,6 +10,7 @@ public partial class Home : ContentPage
     private void iconmenu_Tapped(object sender, TappedEventArgs e)
     {
 		DisplayAlert("Mensaje", "Hola", "Aceptar");
+		Shell.Current.GoToAsync(nameof(Paginas.Menu));
     }
 
 
