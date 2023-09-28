@@ -11,7 +11,7 @@ public partial class Login : ContentPage
     private void BtnLogear_Clicked(object sender, EventArgs e)
     {
         DisplayAlert("Registrarse", "Hola", "OK");
-        Shell.Current.GoToAsync("home");  
+        Shell.Current.GoToAsync("home");
         return;
     }
 
