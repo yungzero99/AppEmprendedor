@@ -27,7 +27,7 @@
                            Source="iconmenu.png"
 						   AbsoluteLayout.LayoutBounds="320,10,48,48">
                         <Image.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="iconmenu_Tapped" />
+                        <TapGestureRecognizer Tapped="Iconmenu_Tapped" />
                         </Image.GestureRecognizers>
                         </Image>
 

@@ -53,6 +53,15 @@
 	  <None Remove="Resources\Images\btn_ek5wm.png" />
 	  <None Remove="Resources\Images\iconmenu.svg" />
 	  <None Remove="Resources\Images\mask_groupwm.png" />
+	  <None Remove="Resources\Images\menubg.svg" />
+	  <None Remove="Resources\Images\menubg1.svg" />
+	  <None Remove="Resources\Images\menuicon.svg" />
+	  <None Remove="Resources\Images\menuicon1.svg" />
+	  <None Remove="Resources\Images\menuicon2.svg" />
+	  <None Remove="Resources\Images\menuicon3.svg" />
+	  <None Remove="Resources\Images\menuicon4.svg" />
+	  <None Remove="Resources\Images\menuicon5.svg" />
+	  <None Remove="Resources\Images\menuicon6.svg" />
 	  <None Remove="Resources\Images\vectorwm.png" />
 	  <None Remove="Resources\Images\vector_ek1wm.png" />
 	</ItemGroup>

@@ -13,6 +13,8 @@ namespace AppEmprendedor
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
+                    //FontFamily="Font Awesome 5 Free"
+                    fonts.AddFont("fa-solid-900.ttf", "FontAwesomeSolid900");
                 });
 
 #if DEBUG
