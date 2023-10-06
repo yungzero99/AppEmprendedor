@@ -1,225 +1,310 @@
 <?xml version="1.0" encoding="utf-8" ?>
+
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppEmprendedor.Paginas.Menu"
-             Title="Menu">
+             Title="">
+
+
+
+
+
+
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior
+                            IsVisible="False"/>
+    </Shell.BackButtonBehavior>
+
+
+
+
 
     <ContentPage.Content>
-        <ScrollView>
-            <AbsoluteLayout>
+
+        <ScrollView
+           >
+
+            <AbsoluteLayout
+                BackgroundColor="#DEA4FF"
+                Opacity="1">
+
+
+
+
 
 
                 <AbsoluteLayout x:Name="page_menu_ek1"
-				 AbsoluteLayout.LayoutBounds="0,0,360,800"
-				 >
+                 AbsoluteLayout.LayoutBounds="0,0,AutoSize,AutoSize"
+
+
+
+
+                 >
+
+
+
+
+
 
                     <BoxView x:Name="_bg__menu_ek2"
-					Color="#E9E9EC"
-					AbsoluteLayout.LayoutBounds="0,0,360,800" />
+                    AbsoluteLayout.LayoutBounds="0,0,AutoSize,AutoSize"
+                             Color="#DEA4FF"
+                             
+                            />
+
+
+
+
                     <Image x:Name="background"
-					Source="menubg.png"
-					AbsoluteLayout.LayoutBounds="0,0,360,800" />
+                    Source="menubg.png"
+                    AbsoluteLayout.LayoutBounds="0,0,AutoSize,AutoSize" />
                     <Image x:Name="rectangle_2"
-					Source="menubg1.png"
-					AbsoluteLayout.LayoutBounds="1,0,359,800" />
-                    
+                    Source="menubg1.png"
+                    AbsoluteLayout.LayoutBounds="0,0,AutoSize,AutoSize" />
+
                     <Label x:Name="menu_ek3"
-					FontFamily="Nunito"
-					FontAttributes="Bold"
-					FontSize="25"
-					TextColor="#FFFFFF"
-					AbsoluteLayout.LayoutBounds="36,109,85.5,41.5"
-					Text="Menu"
-				 />
+                    FontFamily="Nunito"
+                    FontAttributes="Bold"
+                    FontSize="25"
+                    TextColor="#FFFFFF"
+                    AbsoluteLayout.LayoutBounds="36,109,85.5,41.5"
+                    Text="Menu"
+                 />
                     <Label x:Name="inicio"
-					FontFamily="Nunito"
-					FontAttributes="Bold"
-					FontSize="25"
-					TextColor="#FFFFFF"
-					AbsoluteLayout.LayoutBounds="86,196,97.5,41.5"
-					Text="INICIO">
+                    FontFamily="Nunito"
+                    FontAttributes="Bold"
+                    FontSize="25"
+                    TextColor="#FFFFFF"
+                    AbsoluteLayout.LayoutBounds="86,196,97.5,41.5"
+                    Text="INICIO">
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Inicio_Tapped" />
                         </Label.GestureRecognizers>
                     </Label>
 
+
+
+
                     <Label x:Name="tareas"
-					FontFamily="Nunito"
-					FontAttributes="Bold"
-					FontSize="25"
-					TextColor="#FFFFFF"
-					AbsoluteLayout.LayoutBounds="86,247,119.5,41.5"
-					Text="TAREAS">
-                        
+                    FontFamily="Nunito"
+                    FontAttributes="Bold"
+                    FontSize="25"
+                    TextColor="#FFFFFF"
+                    AbsoluteLayout.LayoutBounds="86,247,119.5,41.5"
+                    Text="TAREAS">
+
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Tareas_Tapped" />
                         </Label.GestureRecognizers>
                     </Label>
 
 
+
+
+
                     <Label x:Name="grupos"
-					FontFamily="Nunito"
-					FontAttributes="Bold"
-					FontSize="25"
-					TextColor="#FFFFFF"
-					AbsoluteLayout.LayoutBounds="83,304,126.5,41.5"
-					Text="GRUPOS">
-                        
+                    FontFamily="Nunito"
+                    FontAttributes="Bold"
+                    FontSize="25"
+                    TextColor="#FFFFFF"
+                    AbsoluteLayout.LayoutBounds="83,304,126.5,41.5"
+                    Text="GRUPOS">
+
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Grupos_Tapped" />
                         </Label.GestureRecognizers>
                     </Label>
 
+
+
+
                     <Label x:Name="ideas"
-					FontFamily="Nunito"
-					FontAttributes="Bold"
-					FontSize="25"
-					TextColor="#FFFFFF"
-					AbsoluteLayout.LayoutBounds="83,355,95.5,41.5"
-					Text="IDEAS">
-                        
+                    FontFamily="Nunito"
+                    FontAttributes="Bold"
+                    FontSize="25"
+                    TextColor="#FFFFFF"
+                    AbsoluteLayout.LayoutBounds="83,355,95.5,41.5"
+                    Text="IDEAS">
+
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Ideas_Tapped" />
                         </Label.GestureRecognizers>
                     </Label>
 
 
+
+
+
                     <Label x:Name="analisis_web"
-					FontFamily="Nunito"
-					FontAttributes="Bold"
-					FontSize="25"
-					TextColor="#FFFFFF"
-					AbsoluteLayout.LayoutBounds="83,412,203.5,41.5"
-					Text="ANALISIS WEB">
+                    FontFamily="Nunito"
+                    FontAttributes="Bold"
+                    FontSize="25"
+                    TextColor="#FFFFFF"
+                    AbsoluteLayout.LayoutBounds="83,412,203.5,41.5"
+                    Text="ANALISIS WEB">
+
+
+
 
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Web_Tapped" />
                         </Label.GestureRecognizers>
                     </Label>
 
+
+
+
                     <Label x:Name="inventario"
-					FontFamily="Nunito"
-					FontAttributes="Bold"
-					FontSize="25"
-					TextColor="#FFFFFF"
-					AbsoluteLayout.LayoutBounds="83,469,174.5,41.5"
-					Text="INVENTARIO">
+                    FontFamily="Nunito"
+                    FontAttributes="Bold"
+                    FontSize="25"
+                    TextColor="#FFFFFF"
+                    AbsoluteLayout.LayoutBounds="83,469,174.5,41.5"
+                    Text="INVENTARIO">
+
+
+
 
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Inventario_Tapped" />
                         </Label.GestureRecognizers>
-              
+
                     </Label>
 
 
+
+
+
                     <Label x:Name="finanzas"
-					FontFamily="Nunito"
-					FontAttributes="Bold"
-					FontSize="25"
-					TextColor="#FFFFFF"
-					AbsoluteLayout.LayoutBounds="83,520,147.5,41.5"
-					Text="FINANZAS">
+                    FontFamily="Nunito"
+                    FontAttributes="Bold"
+                    FontSize="25"
+                    TextColor="#FFFFFF"
+                    AbsoluteLayout.LayoutBounds="83,520,147.5,41.5"
+                    Text="FINANZAS">
+
+
+
 
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Finanzas_Tapped" />
                         </Label.GestureRecognizers>
                     </Label>
 
+
+
+
                     <Label x:Name="x"
-					FontFamily="Font Awesome 5 Free"
-					FontSize="45"
-					TextColor="#FFFFFF"
-					AbsoluteLayout.LayoutBounds="302,29,58.5,51.5"
-					Text="X">
+                    FontFamily="Font Awesome 5 Free"
+                    FontSize="45"
+                    TextColor="#FFFFFF"
+                    AbsoluteLayout.LayoutBounds="302,29,58.5,51.5"
+                    Text="X">
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped" />
                         </Label.GestureRecognizers>
                     </Label>
 
-                    
-                    <!--Imagenes cada imagen debe tener una diferencia de 54 en el eje 'Y'-->
+
+
+
+
+
+
+
 
                     <Image AbsoluteLayout.LayoutBounds="25,196,49.5,36.5"
                         Source="menuicon.png">
                         <Image.GestureRecognizers>
-                        <TapGestureRecognizer Tapped="Inicio_Tapped"/>
+                            <TapGestureRecognizer Tapped="Inicio_Tapped"/>
                         </Image.GestureRecognizers>
-                        </Image>
-                    
+                    </Image>
+
                     <Image AbsoluteLayout.LayoutBounds="25,250,45.5,36.5"
                            Source="menuicon1.png">
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Tareas_Tapped"/>
                         </Image.GestureRecognizers>
-                        
+
                     </Image>
-                    
+
                     <Image AbsoluteLayout.LayoutBounds="25,304,49.5,36.5"
                         Source="menuicon6.png">
+
+
+
 
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Grupos_Tapped"/>
                         </Image.GestureRecognizers>
                     </Image>
-                    
+
                     <Image AbsoluteLayout.LayoutBounds="25,358,45.5,36.5"
                            Source="menuicon2.png">
+
+
+
 
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Ideas_Tapped"/>
                         </Image.GestureRecognizers>
                     </Image>
 
-                        
+
+
+
+
                     <Image AbsoluteLayout.LayoutBounds="25,412,49.5,36.5"
                         Source="menuicon3.png">
+
+
+
 
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Web_Tapped"/>
                         </Image.GestureRecognizers>
                     </Image>
 
+
+
+
                     <Image AbsoluteLayout.LayoutBounds="25,468,45.5,36.5"
                            Source="menuicon4.png">
+
+
+
 
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Inventario_Tapped"/>
                         </Image.GestureRecognizers>
                     </Image>
-                    
+
                     <Image AbsoluteLayout.LayoutBounds="25,522,49.5,36.5"
                         Source="menuicon5.png">
+
+
+
 
                         <Image.GestureRecognizers>
                             <TapGestureRecognizer Tapped="Finanzas_Tapped"/>
                         </Image.GestureRecognizers>
                     </Image>
 
-                    <Label x:Name="__"
-					FontFamily="Font Awesome 5 Free"
-					FontSize="25"
-					TextColor="#FFFFFF"
-					AbsoluteLayout.LayoutBounds="36,196,49.5,36.5"
-					Text=""
-				 />
-                    <Label x:Name="___ek1"
-					FontFamily="Font Awesome 5 Free"
-					FontSize="25"
-					TextColor="#FFFFFF"
-					AbsoluteLayout.LayoutBounds="36,250,45.5,36.5"
-					Text=""
-				 />
-                    <Label x:Name="___ek2"
-					FontFamily="Font Awesome 5 Free"
-					FontSize="25"
-					TextColor="#FFFFFF"
-					AbsoluteLayout.LayoutBounds="29,304,52.5,36.5"
-					Text="Kll"
-				 />
+
+
+
+
                 </AbsoluteLayout>
             </AbsoluteLayout>
 
+
+
+
         </ScrollView>
 
+
+
+
     </ContentPage.Content>
+
 </ContentPage>

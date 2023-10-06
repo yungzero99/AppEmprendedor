@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppEmprendedor.ModuloTareas.NewPage1"
+             Title="Lista de Tareas">
+
+
+    <Shell.BackButtonBehavior>
+        <BackButtonBehavior
+                            IsVisible="True"
+             Command="{Binding NavigateToHomeCommand}"
+            />
+    </Shell.BackButtonBehavior>
+
+
+    <ScrollView>
+        <!-- Aquí va el contenido de la página -->
+        <!--  Haz un modulo para gestionar tareas, con una lista de tareas, añadir tareas, editar tareas y eliminar tareas. -->
+        <!-- El modulo debe tener filtros por fecha, responsabilidad, etc. En la lista de tareas con titulo, fecha limite, y estado (pendiente, en progreso, completada)-->
+
+        <StackLayout>
+            <ListView x:Name="TareasListView"
+                      BackgroundColor="Transparent"
+                      ItemSelected="TareasListView_ItemSelected"
+                      ItemTapped="TareasListView_ItemTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label Text="{Binding Titulo}" FontAttributes="Bold" WidthRequest="150" />
+                                <Label Text="{Binding FechaLimite, StringFormat='limite: {0:d}'}" WidthRequest="110" />
+                                <Label Text="{Binding Estado}" HorizontalOptions="EndAndExpand" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+                      
+                      </ListView>
+
+
+
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                <Button x:Name="BtnAddTarea" Text="Añadir tarea" Clicked="BtnAddTarea_Clicked" />
+                <Button x:Name="BtnEditTarea" Text="Editar tarea" Clicked="BtnEditTarea_Clicked" />
+                <Button x:Name="BtnDeleteTarea" Text="Eliminar tarea" Clicked="BtnDeleteTarea_Clicked" />
+            </StackLayout>
+
+        </StackLayout>
+        
+   
+    </ScrollView>
+</ContentPage>

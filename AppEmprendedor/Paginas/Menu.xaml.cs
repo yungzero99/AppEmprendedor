@@ -18,7 +18,8 @@ public partial class Menu : ContentPage
     }
     private void Tareas_Tapped(object sender, TappedEventArgs e)
     {
-        DisplayAlert("Mensaje", "Hola", "Aceptar");
+        Shell.Current.GoToAsync(nameof(ModuloTareas.NewPage1));
+//        DisplayAlert("Mensaje", "Hola", "Aceptar");
     }
     private void Grupos_Tapped(object sender, TappedEventArgs e)
     {
